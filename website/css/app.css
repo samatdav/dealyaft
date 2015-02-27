@@ -187,6 +187,8 @@ body {
 .fixed-header-wrap {
 	border-bottom: 1px solid #ffffff;
 	border-top: 1px solid #ffffff;
+
+	background-color: #fff;
 }
 
 .logo-text-header {
@@ -248,7 +250,7 @@ body {
 }
 
 .search-header {
-	left: 370px;
+	left: 184px;
 	right: 10px;
 }
 
@@ -261,7 +263,7 @@ body {
 	margin-left: -1px;
 }
 
-@media all and (max-width: 898px) {
+/*@media all and (max-width: 898px) {
 
 	.fixed-header {
 		height: 44px;
@@ -310,7 +312,7 @@ body {
 		width: 76px;
 	}
 }
-
+*/
 .fixed-content {
 	top: 60px;
 	bottom: 33px;
@@ -319,13 +321,13 @@ body {
 	position: fixed;
 	padding: 10px;
 }
-
+/*
 @media all and (max-width: 898px) {
 	.fixed-content {
 		top: 103px;
 	}
 }
-
+*/
 .tab-strip {
 	list-style: none;
 	border-bottom: 1px solid #C0C0C0;

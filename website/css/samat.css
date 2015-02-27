@@ -4,9 +4,12 @@
 }*/
 
 #search-field {
-    height: 40px;
+    height: 38px;
     display: inline-block;
 /*    float: left;*/
+}
+.search-field2 {
+	float: left;
 }
 .btn {
     display: inline-block;
@@ -293,4 +296,22 @@ position: relative;
 	position: relative;
 	top: 3px;
 	left: 0px;
+}
+.main-search {
+	position: relative;
+	left: -50px;
+	float: left;
+	padding-left: 10px;
+	padding-right: 10px;
+	width: 100px;
+}
+
+#item-wrap-inner a{
+	background-color: #eee;
+}
+#item-wrap-inner a .item-in {
+	background-color: #fff;
+}
+.right {
+	float: right;
 }
