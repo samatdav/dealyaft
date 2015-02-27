@@ -53,11 +53,12 @@ body {
 }
 
 .logo-text {
-	font-family: "bebas_neueregular";
+/*	font-family: "bebas_neueregular";*/
 	text-shadow: 1px 0px rgba(0, 0, 0, 0.5);
 	letter-spacing: 2px;
 	text-align: center;
 	line-height: 0.7em;
+    font-weight: 700;
 }
 
 .logo-text-left {
@@ -84,7 +85,7 @@ body {
 	height: 22px;
 }
 
-.search-button {
+.yellow-button {
 	position: relative;
 	vertical-align: top;
 	width: 100%;
@@ -99,7 +100,7 @@ body {
 	cursor: pointer;
 	-webkit-box-shadow: inset 0 -2px #e2b607;
 	box-shadow: inset 0 -2px #e2b607;
-	font-family: "open-sans-regular";
+/*	font-family: "open-sans-regular";*/
 	display: block;
 	max-width: 200px;
 	margin: auto;
@@ -113,7 +114,7 @@ body {
 	box-sizing: border-box;
 }
 
-.search-button:active {
+.yellow-button:active {
 	top: 1px;
 	outline: none;
 	-webkit-box-shadow: none;
@@ -1893,7 +1894,7 @@ label {
 }
 
 .tag_line {
-	font-family: "open-sans-regular";
+/*	font-family: "open-sans-regular";*/
 	color: #27ae60;
 	font-size: 14px;
 	font-weight: normal;
