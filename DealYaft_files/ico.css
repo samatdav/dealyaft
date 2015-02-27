@@ -1,0 +1,10 @@
+@font-face {
+	font-family: ico;
+	src:url("../fonts/ico/ico.eot?kt2nsd");
+	src:url("../fonts/ico/ico.eot?#iefixkt2nsd") format("embedded-opentype"),
+		url("../fonts/ico/ico.woff?kt2nsd") format("woff"),
+		url("../fonts/ico/ico.ttf?kt2nsd") format("truetype"),
+		url("../fonts/ico/ico.svg?kt2nsd#ico") format("svg");
+	font-weight: normal;
+	font-style: normal;
+}
