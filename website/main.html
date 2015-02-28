@@ -30,8 +30,76 @@
 						<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" name="q" id="search-field" class="search-field search-field2 ui-autocomplete-input" placeholder="Search by product name" autocomplete="off"><button type="submit" class="yellow-button main-search">Search</button>
 					</form>
 				</div>
+				<div class="nav-middle">
+					<a href="#" class="dropdown-toggle middlemenu" data-toggle="dropdown">Search Tools<span class="caret"></span></a>
+					<a href="#" class="middlemenu">Trending</a>
+<!--         <div class="dropdown"> <a href="#" class="dropdown-toggle" data-toggle="dropdown">List Item</a>
+
+            <ul class="dropdown-menu">
+                <ul class='list-inline'>
+                    <li><a href="#" id="">1</a>
+                    </li>
+                    <li><a href="#" id="">2</a>
+                    </li>
+                    <li><a href="#" id="">3</a>
+                    </li>
+                    <li><a href="#" id="">4</a>
+                    </li>
+                    <li><a href="#" id="">5</a>
+                    </li>
+                </ul>
+            </ul>
+        </div> -->
+            <ul class="dropdown dropdown-menu maindropdown full-width" role="menu" aria-labelledby="dLabel">
+            
+    			<a class="#" class="dropdown-toggle" data-toggle="dropdown"><li>Retailers<span class="caret"></span></li></a>
+
+
+    				<ul class="dropdown dropdown-menu maindropdown full-width" role="menu" aria-labelledby="dLabel">
+		    			<a class="#" class="dropdown-toggle" data-toggle="dropdown"><li>Retailers<span class="caret"></span></li></a>
+		    			<a class="#"><li>Price Range<span class="caret"></span></li></a>
+		    			<a class="#"><li>By Relevance<span class="caret"></span></li></a>
+		    			<a class="#"><li>Brand<span class="caret"></span></li></a>
+		    			<a class="#"><li>Rating<span class="caret"></span></li></a>
+		    			<a class="#"><li>Color<span class="caret"></span></li></a>			
+  					</ul>
+
+    			<a class="#"><li>Price Range<span class="caret"></span></li></a>
+    			<a class="#"><li>By Relevance<span class="caret"></span></li></a>
+    			<a class="#"><li>Brand<span class="caret"></span></li></a>
+    			<a class="#"><li>Rating<span class="caret"></span></li></a>
+    			<a class="#"><li>Color<span class="caret"></span></li></a>
+			
+  			</ul>
+
+				</div>
+
 				<div class="right">
-<div class="navigation_elem"><button class="signup yellow-button" data-toggle="modal" data-target="#signup">Sign Up</button></div>
+				<div class="dropdown navigation_elem">
+	  <a id="dLabel"  href="http://example.com" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+	    <i class="fa fa-bars fa-2x"></i>
+	  </a>
+
+	  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+
+	    <li class="social">
+	    <a href="http://www.facebook.com/LiveDeal" class="facebook" target="_blank"><i class="fa fa-facebook fa-2x"></i></a>
+	    <a href="http://www.twitter.com/LiveDeal" target="_blank" class="twitter"><i class="fa fa-twitter fa-2x"></i></a>
+	    <a href="https://plus.google.com/111978104821855458222/posts" target="_blank" class="gplus"><i class="fa fa-google-plus fa-2x"></i></a>
+                            </li>
+	    <li><a href="#"><p>Retailers</p></a></li>
+	    <li><a href="#"><p>Terms of service</p></a></li>
+	    <li><a href="#"><p>Privacy Policy</p></a></li>
+	    <li><a href="#"><p>Blog</p></a></li>
+	    <li id="last"><a href="#"><p>About Us</p></a></li>
+
+	  </ul>
+		</div>
+
+       <div class="navigation_elem"><button class="signup yellow-button" data-toggle="modal" data-target="#signup">Sign Up</button></div>
+
+       <a href="#" class="loginmain"><div class="navigation_elem logintop" data-toggle="modal" data-target="#login">Log in</div></a>
+
        
 				</div>
 			</div>
@@ -347,4 +415,104 @@
 		</div> -->
 	
 
-<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: none;"></ul></body></html>
+<ul class="ui-autocomplete ui-front ui-menu ui-widget ui-widget-content ui-corner-all" id="ui-id-1" tabindex="0" style="display: none;"></ul>
+</body></html>
+
+
+
+		<!-- signup -->
+<div class="modal fade bs-example-modal-sm" id="signup" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Sign Up</h4>
+      </div>
+      <div class="modal-body">
+        <div class="social">
+        <a href="/login/facebook/"><button type="button"  class="btn btn-block btn-lg btn-facebook"><i class="fa fa-facebook fa-2x"></i><p>Sign up with facebook</p></button></a>
+        <a href="/login/google-oauth2"><button type="button" class="btn btn-block btn-lg btn-gplus"><i class="fa fa-google-plus fa-2x"></i><p>Sign up with google</p></button></a>
+        </div>
+        <hr>
+<form action="/accounts/ajax-signup/" id="sign_up_form" method="post" autocomplete="off">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="S25eEolSYOMs8NLGHDTH0jAtpODhJ5Ha">
+
+                    <div style="display: none" class="discription" id="non_field_errors"></div>
+                    <div class="input-icon">
+                        <i class="fa fa-user fa-2x"></i>
+                        <span class="vertical-line"></span>
+                        <input id="id_full_name" maxlength="255" name="full_name" placeholder="Full Name" type="text" required data-validation-required-message="Please enter your name.">
+                    </div>
+                    <div class="input-icon">
+                        <i class="fa fa-envelope-o fa-2x"></i>
+                        <span class="vertical-line"></span>
+                        <input id="id_email" name="email" placeholder="Email" type="email" required data-validation-required-message="Please enter your name.">
+                    </div>
+                    <div class="input-icon">
+                        <i class="fa fa-lock fa-2x"></i>
+                        <span class="vertical-line"></span>
+                        <input id="id_password1" name="password1" placeholder="Password" type="password" required data-validation-required-message="Please enter your name.">
+                    </div>
+                    <div class="input-icon no-margin-bottom">
+                        <i class="fa fa-check fa-2x"></i>
+                        <span class="vertical-line"></span>
+                        <input id="id_password2" name="password2" placeholder="Confirm Password" type="password" required data-validation-required-message="Please enter your name.">
+                    </div>
+                    <button type="submit" class="yellow-button btn-block btn-lg btn-register">Sign Up</button>
+                </form>
+        
+      </div>
+      <div class="bottomtext">
+	      Already have an account? <a href="#" data-dismiss="modal">Log in</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<!-- login -->
+<div class="modal fade bs-example-modal-sm" id="login" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Log in</h4>
+      </div>
+      <div class="modal-body">
+        <div class="social">
+        <a href="/login/facebook/"><button type="button"  class="btn btn-block btn-lg btn-facebook"><i class="fa fa-facebook fa-2x"></i><p>Log in with facebook</p></button></a>
+        <a href="/login/google-oauth2"><button type="button" class="btn btn-block btn-lg btn-gplus"><i class="fa fa-google-plus fa-2x"></i><p>Log in with google</p></button></a>
+        </div>
+        <hr>
+<form action="/accounts/ajax-signup/" id="sign_up_form" method="post" autocomplete="off">
+                    <input type="hidden" name="csrfmiddlewaretoken" value="S25eEolSYOMs8NLGHDTH0jAtpODhJ5Ha">
+
+                    <div style="display: none" class="discription" id="non_field_errors"></div>
+                    
+                    <div class="input-icon">
+                        <i class="fa fa-envelope-o fa-2x"></i>
+                        <span class="vertical-line"></span>
+                        <input id="id_email" name="email" placeholder="Email" type="email" required data-validation-required-message="Please enter your name.">
+                    </div>
+                    <div class="input-icon">
+                        <i class="fa fa-lock fa-2x"></i>
+                        <span class="vertical-line"></span>
+                        <input id="id_password1" name="password1" placeholder="Password" type="password" required data-validation-required-message="Please enter your name.">
+                    </div>
+
+                    <button type="submit" class="yellow-button btn-block btn-lg btn-register">Log in</button>
+                </form>
+        
+      </div>
+      <div class="bottomtext2">
+      <div class="col-xs-5 bottomlinks">
+      	<a href="#" data-dismiss="modal">Register Now!</a>
+      </div>
+	     <div class="col-xs-7 bottomlinks">
+      	<a href="#" data-dismiss="modal">Forgot password?</a>
+      </div>
+      </div>
+    </div>
+  </div>
+</div>

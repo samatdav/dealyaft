@@ -2,7 +2,9 @@
 /*body {
 	font-family: "Lato";
 }*/
-
+a {
+	color: #4F517D;
+}
 #search-field {
     height: 38px;
     display: inline-block;
@@ -76,7 +78,7 @@ content: "\f09a";
 }
 
 .search-field {
-    width: calc(100% - 200px);
+    width: calc(100% - 100px);
 }
 
 .signup {
@@ -257,7 +259,7 @@ line-height: 18px;
 }
 
 .dropdown li.social a {
-padding: 0;
+padding: 0px;
 display: inline-block;
 margin: 0 3px;
 text-decoration: none;
@@ -270,6 +272,7 @@ position: relative;
 }
 .dropdown li.social {
 	text-align: center;
+	margin-top: 5px;
 }
 .dropdown li.social a.facebook {
 	background-color: #3a589b;
@@ -299,7 +302,7 @@ position: relative;
 }
 .main-search {
 	position: relative;
-	left: -50px;
+	left: 0px;
 	float: left;
 	padding-left: 10px;
 	padding-right: 10px;
@@ -314,4 +317,92 @@ position: relative;
 }
 .right {
 	float: right;
+	padding: 15px;
+	z-index: 10;
+}
+.signupmain {
+	position: relative;
+	top: 15px;
+}
+
+.loginmain {
+	z-index: 20;
+}
+
+.nav-middle {
+	position: absolute;
+	float: left;
+	z-index: 10;
+	right: calc(30% - 10px);
+	/*right: 270px;*/
+	display: inline-block;
+	font-size: 19px;
+	top: 16px;
+	height: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+.nav-middle a {
+	margin-right: 1vw;
+}
+
+/*.middlemenu {
+	height: 100%;
+}*/
+
+/*.middlemenu:hover,
+.middlemenu:focus {
+	background-color: #888;
+}*/
+/*@media (max-width: 1150px) {
+	.logo-text-header {
+	display: none;
+}
+}*/
+
+/*.full-width.dropdown {
+    position: static;
+    width: 100%;
+}
+.full-width.dropdown > .dropdown-menu {
+    left: 0;
+    right: 0;
+    position: absolute;
+}
+.full-width.dropdown > .dropdown-menu > li > a {
+   white-space: normal; 
+}*/
+.maindropdown {
+	position: relative;
+	top: 41px;
+	left: -100vw;
+	position:absolute;
+    width: 200vw; 
+    height: 50px;
+    text-align: center;
+    font-size: 19px;
+/*    margin-top: 0;
+    margin-bottom: 0;*/
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.maindropdown li {
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	margin-left: 0;
+	margin-right: 0;
+	position: relative;
+	padding-top: 12px;
+	height: 100%;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.maindropdown li:focus {
+	background-color: #888;
+}
+
+.maindropdown li:hover {
+text-decoration: underline;
 }
