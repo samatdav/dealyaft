@@ -406,3 +406,7 @@ position: relative;
 .maindropdown li:hover {
 text-decoration: underline;
 }
+
+.item-disc-price {
+	display: none;
+}

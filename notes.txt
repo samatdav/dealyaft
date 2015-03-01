@@ -1,1 +1,19 @@
-logo problems
+logo font problems
+
+logo positioning
+
+resposive second
+
+which fonts?
+
+Would there be a scroll-bar if the number of items in the drop down exceed the drop down area, like the retailers for example?
+-better not. like retailers - several lines like retailers?
+When the user selects a particular retailer or any other filtering criteria should the results be filtered  immediately ? how do you envision having the user exit from the drop down ?
+-better immediately. like on google images. click outside or apply
+If the user wants to clear all the selections that he made in the drop down , how do you anticipate to provide the clear functionality ?
+-like google images?
+
+
+8. Very good question about the ad placement , I would certainly consider this at design stage, please take a look at www.thefind.com to get ideas about ad placement.Generally speaking there are two places where the ads can be placed, in the search results page  and the product detail popup.
+-ads only at the main page?
+

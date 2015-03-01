@@ -322,11 +322,11 @@ body {
 	top: -40px;
 	bottom: 0px;
 	left: 0;
-	right: 0;
+	right: 0px;
 	position: fixed;
 	padding: 10px;
 	z-index: 0;
-	margin-top: 50px
+	margin-top: 50px;
 }
 /*
 @media all and (max-width: 898px) {
@@ -588,9 +588,9 @@ body {
 .price {
 	color: #fff;
 	font-family: "Droid sans";
-	font-size: 13px;
+	font-size: 19px;
 	font-weight: bold;
-	padding: 0 10px;
+	/*padding: 0 10px;*/
 	height: 20px;
 	line-height: 20px;
 	overflow: hidden;
@@ -599,14 +599,19 @@ body {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	display: inline-block;
-	margin-right: 10px;
+	/*margin-right: 10px;*/
 	vertical-align: bottom;
 	border-radius: 10px;
-	width: 80px;
+	/*width: 80px;*/
+	text-align: center;
 }
 
 .item-orig-price .price {
-	background-color: #c00;
+	color: black;
+	display: block;
+	/*position: absolute;
+	left: 20px;*/
+	text-align: center;
 }
 
 .item-disc-price .price {
@@ -614,11 +619,11 @@ body {
 }
 
 .retailer {
-	padding: 0 10px 0 0;
+	/*padding: 0 10px 0 0;*/
 	/* background: #404040; */
 	color: #333;
-	font-family: "open-sans-regular";
-	font-size: 12px;
+	/*font-family: "open-sans-regular";*/
+	font-size: 15px;
 	height: 20px;
 	line-height: 20px;
 	overflow: hidden;
@@ -627,8 +632,10 @@ body {
 	-moz-box-sizing: border-box;
 	box-sizing: border-box;
 	white-space: nowrap;
-	display: inline-block;
+	/*display: inline-block;*/
 	width: 100%;
+	text-align: center;
+	/*margin: 0 auto;*/
 }
 
 .ui-helper-hidden-accessible {
