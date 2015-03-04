@@ -1,13 +1,31 @@
-logo font problems
+like on ebay. big X close. 
+
+like ebay. then hover.
+
+
+image more on item. different heigth - later. 
+
+
+pending and available on one page. 
+--
+
+logo font problems - ok
 
 logo positioning
 
+do not spend time for ads.
+
 resposive second
 
-which fonts?
+which fonts? - up to me. needs to be changed.
+
+item price below? on scoperks below. on ebay so. saw inline nowhere.
+
+font size like ebay
 
 Would there be a scroll-bar if the number of items in the drop down exceed the drop down area, like the retailers for example?
 -better not. like retailers - several lines like retailers?
+
 When the user selects a particular retailer or any other filtering criteria should the results be filtered  immediately ? how do you envision having the user exit from the drop down ?
 -better immediately. like on google images. click outside or apply
 If the user wants to clear all the selections that he made in the drop down , how do you anticipate to provide the clear functionality ?

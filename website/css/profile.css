@@ -1,0 +1,41 @@
+.fixed-content {
+	top: -40px;
+	bottom: 0px;
+	left: 300px;
+	right: 0px;
+	position: fixed;
+	padding: 10px;
+	z-index: 0;
+	margin-top: 50px;
+}
+
+.profile-left {
+	position: fixed;
+	top: 100px;
+	left: 50px;
+}
+
+.profile-left > div {
+	background: white;
+	font-size: 20px;
+	padding: 20px;
+	margin-bottom: 30px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.profile-left div div {
+	padding: 0 
+}
+
+div .profile-cashback-head,
+div .profile-account-head,
+div .profile-items-head{
+	font-size: 30px;
+}
+
+div .profile-cashback-body,
+div .profile-account-body,
+div .profile-items-body{
+	line-height: 42px;
+	margin-bottom: 0px;
+}

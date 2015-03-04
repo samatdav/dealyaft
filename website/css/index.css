@@ -1,3 +1,49 @@
 body {
 	background-color: #fff;
 }
+.search-icon {
+	display: none;
+}
+
+.landing-title {
+	width: calc(100% - 200px);
+	text-align: left;
+}
+
+.logo-text .tag_line {
+	font-family: "Lato";
+	letter-spacing: none;
+	text-shadow: none;
+	text-align: center;
+	/*line-height: 0.7em;*/
+    font-weight: 500;
+}
+
+@media (max-width: 640px) {
+
+	#search-field {
+	width: calc(100% - 40px);
+	}
+	.search-button {
+		width: 40px;
+	}
+	.search-icon {
+	display: block;
+	}
+	.landing-search {
+		display: none;
+	}
+	.landing-title {
+	width: calc(100% - 40px);
+	text-align: left;
+}
+
+}
+@media (max-width: 400px) {
+	.logo-text2 {
+		font-size: 46px;
+	}
+	.navigation {
+		margin-right: 10px;
+	}
+}

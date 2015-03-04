@@ -79,7 +79,7 @@ body {
 	width: 80%;
 	max-width: 800px;
 	margin: auto;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	-webkit-box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 	box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 	height: 22px;
@@ -168,7 +168,7 @@ body {
 
 .footer-link {
 	font-size: 13px;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	font-weight: normal;
 	color: #2fa4e7;
 	text-decoration: none;
@@ -192,7 +192,7 @@ body {
 }
 
 .logo-text-header {
-	font-family: "bebas_neueregular";
+	/*font-family: "bebas_neueregular";*/
 	text-shadow: 1px 0px rgba(0, 0, 0, 0.5);
 	letter-spacing: 2px;
 	text-align: left;
@@ -319,7 +319,7 @@ body {
 }
 */
 .fixed-content {
-	top: -40px;
+	top: -50px;
 	bottom: 0px;
 	left: 0;
 	right: 0px;
@@ -376,7 +376,7 @@ body {
 .tab-strip > li > a {
 	text-decoration: none;
 	font-size: 14px;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	color: #404040;
 	display: block;
 	padding: 0 10px;
@@ -402,7 +402,7 @@ body {
 
 .filter-link-wrap {
 	float: left;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	font-size: 14px;
 	font-weight: normal;
 	line-height: 30px;
@@ -507,9 +507,10 @@ body {
 }
 
 .item-in {
-	margin-left: 10px;
-	margin-right: 10px;
-	margin-bottom: 20px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
 	border: 1px solid #C0C0C0;
 	border-radius: 3px;
 	position: relative;
@@ -529,8 +530,11 @@ body {
 .item-pic {
 	margin: 20px;
 	/* border: 1px solid #C0C0C0; */
-	height: 150px;
-	background-size: contain;
+	/*width: 250px;*/
+	
+	/*width: 150px;*/
+	height: 250px;
+	background-size: cover;
 }
 
 .item-title {
@@ -541,8 +545,8 @@ body {
 	font-size: 14px;
 	font-weight: bold;
 	font-weight: normal;
-	font-family: "open-sans-regular";
-	font-family: "Droid sans";
+/*	font-family: "open-sans-regular";
+	font-family: "Droid sans";*/
 	padding: 10px;
 	text-shadow: 1px 0px rgba(0, 0, 0, 0.2);
 	background: aliceblue;
@@ -587,7 +591,7 @@ body {
 
 .price {
 	color: #fff;
-	font-family: "Droid sans";
+	/*font-family: "Droid sans";*/
 	font-size: 19px;
 	font-weight: bold;
 	/*padding: 0 10px;*/
@@ -699,7 +703,7 @@ body {
 	height: 30px;
 	line-height: 30px;
 	color: #333;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	font-size: 16px;
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -715,7 +719,7 @@ body {
 	line-height: 16px;
 	position: absolute;
 	color: #333;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	font-size: 12px;
 	text-overflow: ellipsis;
 	overflow: hidden;
@@ -735,7 +739,7 @@ body {
 	line-height: 16px;
 	height: 16px;
 	padding: 0 10px;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	color: white;
 	text-shadow: 0 1px rgba(0, 0, 0, 0.9);
 	border: 1px solid;
@@ -843,7 +847,7 @@ li.active .badge {
 	color: #74655f;
 	font-size: 14px;
 	font-weight: normal;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	display: none;
 }
 
@@ -857,7 +861,7 @@ li.active .badge {
 	color: #3498DB;
 	font-size: 14px;
 	font-weight: normal;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	cursor: pointer;
 }
 
@@ -919,7 +923,7 @@ li.active .badge {
 	padding: 0 30px;
 	font-size: 14px;
 	font-weight: normal;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	color: #fff;
 	background: #808080;
 	border-radius: 3px;
@@ -1011,7 +1015,7 @@ li.active .badge {
 	padding: 0 10px;
 	font-size: 14px;
 	font-weight: normal;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	height: 30px;
 	line-height: 30px;
 }
@@ -1061,7 +1065,7 @@ label {
 .css-label{
 	font-size: 14px;
 	font-weight: normal;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	margin-left: 10px;
 }
 
@@ -1127,7 +1131,7 @@ label {
 .sort-options span, .sort-options select {
 	font-size: 14px;
 	font-weight: normal;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 }
 
 .filter-link-wrap > a {
@@ -1246,7 +1250,7 @@ label {
 	border-bottom: 1px solid #e6e8ea;
 	font-size: 14px;
 	font-weight: normal;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 }
 
 .wrapper-dropdown .dropdown li i {
@@ -1344,7 +1348,7 @@ label {
 	line-height: 40px;
 	overflow: hidden;
 	text-overflow: ellipsis;
-	font-family: "Droid sans";
+	/*font-family: "Droid sans";*/
 	text-shadow: 1px 0px rgba(0, 0, 0, 0.5);
 	font-size: 18px;
 	background: #F9F7ED;
@@ -1380,7 +1384,7 @@ label {
 
 .deal-label {
 	font-size: 14px;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	color: #404040;
 	padding-left: 0px;
 	height: 30px;
@@ -1416,7 +1420,7 @@ label {
 
 .desc-tabs > li > a {
 	text-decoration: none;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	color: #404040;
 	font-size: 14px;
 }
@@ -1441,7 +1445,7 @@ label {
 	color: #333;
 	font-size: 14px;
 	font-weight: normal;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	text-align: justify;
 }
 
@@ -1450,7 +1454,7 @@ label {
 	line-height: 40px;
 	font-weight: bold;
 	font-size: 18px;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	color: #21449c;
 }
 
@@ -1463,7 +1467,7 @@ label {
 
 .step-num {
 	font-size: 13px;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	color: #ffffff;
 	font-weight: normal;
 	background: #c0c0c0;
@@ -1495,7 +1499,7 @@ label {
 
 .step-details {
 	font-size: 14px;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	color: #333;
 	padding: 10px;
 	background: aliceblue;
@@ -1545,7 +1549,7 @@ label {
 	margin: auto;
 	text-align: center;
 	font-size: 14px;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 }
 
 .overlay-deal-details .item-orig-price, .overlay-deal-details .item-disc-price {
@@ -1559,7 +1563,7 @@ label {
 	line-height: 30px;
 	padding-left: 10px;
 	font-size: 14px;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	font-weight: bold;
 	color: #333;
 	margin-bottom: 10px;
@@ -1648,7 +1652,7 @@ label {
 	}
 
 	.step-num, .step-num span {
-		font-family: "open-sans-regular";
+		/*font-family: "open-sans-regular";*/
 		font-size: 14px;
 		font-weight: bold;
 	}
@@ -1660,26 +1664,48 @@ label {
 }
 
 .item-overlay {
-	display: none;
-	background: url("../images/overlay.png");
-	background: rgba(0, 0, 0, 0.6);
-	top: 0;
+	/*background: url("../images/overlay.png");*/
+	background: rgba(0, 0, 0, 0);
+	opacity: 0;
+	/*top: 150px;	*/
+	top: 0px;
 	left: 0;
 	right: 0;
-	bottom: 0;
+	/*bottom: 33px;*/
+	bottom: 0px;
 	color: #ffffff;
 	text-align: center;
 	font-size: 18px;
 	font-weight: bold;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	position: absolute;
-	padding: 10px;
-	line-height: 280px;
+	/*padding: 10px;*/
+	/*line-height: 280px;*/
 	z-index: 100;
+/*	 -moz-box-shadow: inset 0 0 10em #666;  
+ 	-webkit-box-shadow: inset 0 0 10em #666;  */ 
+ 	/*box-shadow: inset 0 -10px 100px  #888;*/
+    
+
+
+
+
 }
 
-.no-touch .item:hover .item-overlay {
-	display: block;
+/*.gradient {
+	opacity: 0.3;
+		    background: -webkit-linear-gradient(red, blue); 
+    background: -o-linear-gradient(red, blue); 
+    background: -moz-linear-gradient(red, blue); 
+    background: linear-gradient(white, black); 
+}*/
+/*.no-touch .item:hover .item-overlay {
+	
+	opacity: 0.1;
+}*/
+
+.item-overlay:hover {
+	opacity: 1;
 }
 
 .irs, .irs-slider {
@@ -1691,7 +1717,7 @@ label {
 	clear: both;
 	text-align: center;
 	font-size: 14px;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	height: 120px;
 	line-height: 194px;
 	margin-top: 20px;
@@ -1740,7 +1766,7 @@ label {
 .more-less-link {
 	color: #3498DB;
 	font-size: 14px;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	text-decoration: none;
 }
 
@@ -1777,7 +1803,7 @@ label {
 	background: aliceblue;
 	text-align: center;
 	font-size: 14px;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	color: #333;
 	line-height: 30px;
 	display: none;
@@ -1785,7 +1811,7 @@ label {
 
 .oops {
 	color: #fff;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	font-size: 14px;
 	background: #c00000;
 	padding: 10px;
@@ -1809,7 +1835,7 @@ label {
 
 .oops-desc {
 	color: #333;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	font-size: 14px;
 	text-align: center;
 	max-width: 600px;
@@ -1833,7 +1859,7 @@ label {
 	font-weight: bold;
 	border-bottom: 1px solid #c0c0c0;
 	border-top: 1px solid #c0c0c0;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	font-size: 14px;
 	background: aliceblue;
 	color: #333;
@@ -1842,7 +1868,7 @@ label {
 
 .page-content {
 	padding: 10px;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	font-size: 14px;
 	position: absolute;
 	top: 42px;
@@ -1857,7 +1883,7 @@ label {
 	position: relative;
 	background: steelblue;
 	padding: 5px;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	color: #fff;
 	font-size: 14px;
 	display: inline-block;
@@ -1883,7 +1909,7 @@ label {
 .arrow_box_head {
 	position: relative;
 	background: steelblue;
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	color: #fff;
 	font-size: 12px;
 	display: inline-block;
@@ -1910,7 +1936,7 @@ label {
 }
 
 .tag_line {
-/*	font-family: "open-sans-regular";*/
+	/*font-family: "open-sans-regular";*/
 	color: #27ae60;
 	font-size: 14px;
 	font-weight: normal;
@@ -1919,7 +1945,7 @@ label {
 }
 
 .tag_line_head {
-	font-family: "open-sans-regular";
+	/*font-family: "open-sans-regular";*/
 	color: #27ae60;
 	font-size: 14px;
 	font-weight: normal;

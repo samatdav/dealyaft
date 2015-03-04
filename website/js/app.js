@@ -61,7 +61,7 @@ $(function() {
 		$("#overlay").hide();
 		return false;
 	});
-	$(document.body).on("click", ".item", showOverlay);
+	// $(document.body).on("click", ".item", showOverlay);
 	$(document.body).on("click", ".more-less-link", function(e) {
 		$("#desc-desc-contain").toggleClass("desc-desc-contain-expanded");
 		return false;
@@ -236,7 +236,7 @@ $.fn.preload = function() {
 
 // Usage:
 
-$(["images/18-0.gif", "images/287.gif"]).preload();
+$(["img/18-0.gif", "img/287.gif"]).preload();
 
 var setTileWidth = function() {
 	if($("#item-wrap-inner")[0]) {

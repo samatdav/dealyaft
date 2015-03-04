@@ -13,7 +13,7 @@
 		<link type="text/css" rel="stylesheet" href="css/app.css">
 		<link href="css/font-awesome/font-awesome.css" rel="stylesheet" type="text/css">
 		<link type="text/css" rel="stylesheet" href="css/samat.css">
-		<link type="text/css" rel="stylesheet" href="css/main.css">
+		<link type="text/css" rel="stylesheet" href="css/profile.css">
 		<script type="text/javascript" src="js/jquery-1.11.0.min.js"></script><style type="text/css"></style>
 		<script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>
 		<script type="text/javascript" src="js/jquery.fittext.js"></script>
@@ -28,34 +28,33 @@
 				<div class="logo-text-header"><a href="https://dl.dropboxusercontent.com/u/27009746/dealyaft/index.html"><span class="logo-text-wrap"><span class="logo-text-left">Deal</span><span class="logo-text-right">Yaft</span></span></a></div>
 				<div class="search-header">
 					<form action="https://dl.dropboxusercontent.com/u/27009746/dealyaft/listing.html" method="get">
-						<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" name="q" id="search-field" class="search-field search-field2 ui-autocomplete-input" placeholder="Search by product name" autocomplete="off"><button type="submit" class="yellow-button main-search"><span class="main-search-text">Search</span><i class="fa fa-search search-icon"></i></button>
+						<span role="status" aria-live="polite" class="ui-helper-hidden-accessible"></span><input type="text" name="q" id="search-field" class="search-field search-field2 ui-autocomplete-input" placeholder="Search by product name" autocomplete="off"><button type="submit" class="yellow-button main-search">Search</button>
 					</form>
 				</div>
 				<div class="nav-middle">
 					<a href="#" class="dropdown-toggle middlemenu" data-toggle="dropdown">Search Tools<span class="caret"></span></a>
 					<a href="#" class="middlemenu">Trending</a>
 
-
-				<ul class="dropdown dropdown-menu maindropdown full-width" role="menu" aria-labelledby="dLabel">
+            <ul class="dropdown dropdown-menu maindropdown full-width" role="menu" aria-labelledby="dLabel">
             
-    			<a href="#" id="main-retailers" class="dropdown-toggle" data-toggle="dropdown"><li>Retailers<span class="caret"></span></li></a>
+    			<a class="#" class="dropdown-toggle" data-toggle="dropdown"><li>Retailers<span class="caret"></span></li></a>
 
 
     				<ul class="dropdown dropdown-menu maindropdown full-width" role="menu" aria-labelledby="dLabel">
-		    			<a href="#" class="dropdown-toggle" data-toggle="dropdown"><li>Retailers<span class="caret"></span></li></a>
-		    			<a href="#"><li>Price Range<span class="caret"></span></li></a>
-		    			<a href="#"><li>By Relevance<span class="caret"></span></li></a>
-		    			<a href="#"><li>Brand<span class="caret"></span></li></a>
-		    			<a href="#"><li>Rating<span class="caret"></span></li></a>
-		    			<a href="#"><li>Color<span class="caret"></span></li></a>			
+		    			<a class="#" class="dropdown-toggle" data-toggle="dropdown"><li>Retailers<span class="caret"></span></li></a>
+		    			<a class="#"><li>Price Range<span class="caret"></span></li></a>
+		    			<a class="#"><li>By Relevance<span class="caret"></span></li></a>
+		    			<a class="#"><li>Brand<span class="caret"></span></li></a>
+		    			<a class="#"><li>Rating<span class="caret"></span></li></a>
+		    			<a class="#"><li>Color<span class="caret"></span></li></a>			
   					</ul>
 
-    			<a href="#" class="asdf"><li>Price Range<span class="caret"></span></li></a>
-    			<a href="#"><li>By Relevance<span class="caret"></span></li></a>
-    			<a href="#"><li>Brand<span class="caret"></span></li></a>
-    			<a href="#"><li>Rating<span class="caret"></span></li></a>
-    			<a href="#"><li>Color<span class="caret"></span></li></a>
-    			<a href="#"><li>Clear</li></a>
+    			<a class="#"><li>Price Range<span class="caret"></span></li></a>
+    			<a class="#"><li>By Relevance<span class="caret"></span></li></a>
+    			<a class="#"><li>Brand<span class="caret"></span></li></a>
+    			<a class="#"><li>Rating<span class="caret"></span></li></a>
+    			<a class="#"><li>Color<span class="caret"></span></li></a>
+    			<a class="#"><li>Clear</li></a>
 			
   			</ul>
 
@@ -63,7 +62,7 @@
 
 				<div class="right">
 				<div class="dropdown navigation_elem">
-	  <a id="dLabel"  href="#" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
+	  <a id="dLabel"  href="http://example.com" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
 	    <i class="fa fa-bars fa-2x"></i>
 	  </a>
 
@@ -82,39 +81,262 @@
 
 	  </ul>
 		</div>
+		
 
-       <div class="navigation_elem"><button class="signup yellow-button" data-toggle="modal" data-target="#signup">Sign Up</button></div>
+		<div class="navlogged navigation_elem">
+			<a href="#"><img src="img/default_profile.jpg"></a>
+		</div>
+		
+		<a href="#" class="loginmain"><div class="navigation_elem logintop loggedname">Name</div></a>
+
+		</div>
+      <!--  <div class="navigation_elem"><button class="signup yellow-button" data-toggle="modal" data-target="#signup">Sign Up</button></div>
 
        <a href="#" class="loginmain"><div class="navigation_elem logintop" data-toggle="modal" data-target="#login">Log in</div></a>
-		
-<!-- 
-		<a id="shrinked-login"  href="#" data-toggle="dropdown" aria-haspopup="true" role="button" aria-expanded="false">
-	    <i class="fa fa-bars fa-2x"></i>
-	  </a>
-		<ul class="dropdown-menu shrinked-login" role="menu" aria-labelledby="shrinked-login">
 
-	    <li><a href="#"><p>Retailers</p></a></li>
-	    <li><a href="#"><p>Terms of service</p></a></li>
-	    <li><a href="#"><p>Privacy Policy</p></a></li>
-	    <li><a href="#"><p>Blog</p></a></li>
-	    <li id="last"><a href="#"><p>About Us</p></a></li>
-
-	  </ul> -->
-
-
-       
+        -->
 				</div>
 			</div>
 		</div>
-		<div class="fixed-content">
+
+		<div class="profile-left">
+		
+
+
+
+<!-- <div role="tabpanel">
+
+  
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation" class="active"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+  </ul>
+
+  
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane active" id="home">1</div>
+    <div role="tabpanel" class="tab-pane" id="profile">2</div>
+
+</div> -->
+
+
+			<div class="profile-items">
+				<div class="profile-items-head">
+				Items
+				</div>
+				<hr>
+				<div class="profile-items-body">
+				<a href="#home" aria-controls="home" role="tab" data-toggle="tab">Previously viewed</a>
+				</div>
+			</div>
+
+			<div class="profile-cashback">
+				<div class="profile-cashback-head">
+				Cashback
+				</div>
+				<hr>
+				<div class="profile-cashback-body">
+				<a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Available cashback</a>
+				<br>
+				<a href="#home" aria-controls="home" role="tab" data-toggle="tab">Withdraw money</a>
+				</div>
+			</div>
+			
+			<div class="profile-cashback">
+				<div class="profile-cashback-head">
+				My Account
+				</div>
+				<hr>
+				<div class="profile-cashback-body">
+				<a href="#">My profile</a>
+				<br>
+				<a href="#">Password</a>
+				</div>
+			</div>
+			
+		</div>
+
+
+
+
+
+
+		<div role="tabpanel" class="tab-pane active" id="home" class="fixed-content">
 			<div class="did-u-mean" id="did-u-mean">
 				Did you mean <a href="https://dl.dropboxusercontent.com/u/27009746/dealyaft/listing.html?q=ActionScript#">printers</a>?<span id="did-u-mean-close">X</span>
-			</div>						
-
-			<div class="item-wrap-inner tile-5" id="item-wrap-inner">
-
-
-
+			</div>
+								<div class="item-wrap-inner tile-5" id="item-wrap-inner">
+						<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
+					<div class="item-in">
+						<div class="item-overlay">
+							<div class="overlay-text">
+								iPhone 6 Plus
+							</div>
+						</div>
+						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
+						</div>
+						<div class="itembelow">
+							<div class="item-title">
+							$9999.00
+							<br>
+							<span class="main-cashback">Up to 3% cashback</span>
+							<span class="retailer pricing item-orig-price"><span>
+							<span class="price"></span></div>
+						</div>
+					</div>
+				</a>
+						<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
+					<div class="item-in">
+						<div class="item-overlay">
+							<div class="overlay-text">
+								iPhone 6 Plus
+							</div>
+						</div>
+						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
+						</div>
+						<div class="itembelow">
+							<div class="item-title">
+							$9999.00
+							<br>
+							<span class="main-cashback">Up to 3% cashback</span>
+							<span class="retailer pricing item-orig-price"><span>
+							<span class="price"></span></div>
+						</div>
+					</div>
+				</a>
+				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
+					<div class="item-in">
+						<div class="item-overlay">
+							<div class="overlay-text">
+								iPhone 6 Plus
+							</div>
+						</div>
+						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
+						</div>
+						<div class="itembelow">
+							<div class="item-title">
+							$9999.00
+							<br>
+							<span class="main-cashback">Up to 3% cashback</span>
+							<span class="retailer pricing item-orig-price"><span>
+							<span class="price"></span></div>
+						</div>
+					</div>
+				</a>
+				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
+					<div class="item-in">
+						<div class="item-overlay">
+							<div class="overlay-text">
+								iPhone 6 Plus
+							</div>
+						</div>
+						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
+						</div>
+						<div class="itembelow">
+							<div class="item-title">
+							$9999.00
+							<br>
+							<span class="main-cashback">Up to 3% cashback</span>
+							<span class="retailer pricing item-orig-price"><span>
+							<span class="price"></span></div>
+						</div>
+					</div>
+				</a>
+				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
+					<div class="item-in">
+						<div class="item-overlay">
+							<div class="overlay-text">
+								iPhone 6 Plus
+							</div>
+						</div>
+						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
+						</div>
+						<div class="itembelow">
+							<div class="item-title">
+							$9999.00
+							<br>
+							<span class="main-cashback">Up to 3% cashback</span>
+							<span class="retailer pricing item-orig-price"><span>
+							<span class="price"></span></div>
+						</div>
+					</div>
+				</a>
+				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
+					<div class="item-in">
+						<div class="item-overlay">
+							<div class="overlay-text">
+								iPhone 6 Plus
+							</div>
+						</div>
+						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
+						</div>
+						<div class="itembelow">
+							<div class="item-title">
+							$9999.00
+							<br>
+							<span class="main-cashback">Up to 3% cashback</span>
+							<span class="retailer pricing item-orig-price"><span>
+							<span class="price"></span></div>
+						</div>
+					</div>
+				</a>
+				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
+					<div class="item-in">
+						<div class="item-overlay">
+							<div class="overlay-text">
+								iPhone 6 Plus
+							</div>
+						</div>
+						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
+						</div>
+						<div class="itembelow">
+							<div class="item-title">
+							$9999.00
+							<br>
+							<span class="main-cashback">Up to 3% cashback</span>
+							<span class="retailer pricing item-orig-price"><span>
+							<span class="price"></span></div>
+						</div>
+					</div>
+				</a>
+				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
+					<div class="item-in">
+						<div class="item-overlay">
+							<div class="overlay-text">
+								iPhone 6 Plus
+							</div>
+						</div>
+						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
+						</div>
+						<div class="itembelow">
+							<div class="item-title">
+							$9999.00
+							<br>
+							<span class="main-cashback">Up to 3% cashback</span>
+							<span class="retailer pricing item-orig-price"><span>
+							<span class="price"></span></div>
+						</div>
+					</div>
+				</a>
+				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
+					<div class="item-in">
+						<div class="item-overlay">
+							<div class="overlay-text">
+								iPhone 6 Plus
+							</div>
+						</div>
+						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
+						</div>
+						<div class="itembelow">
+							<div class="item-title">
+							$9999.00
+							<br>
+							<span class="main-cashback">Up to 3% cashback</span>
+							<span class="retailer pricing item-orig-price"><span>
+							<span class="price"></span></div>
+						</div>
+					</div>
+				</a>
 				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
 					<div class="item-in">
 						<div class="item-overlay">
@@ -135,428 +357,8 @@
 					</div>
 				</a>
 
+</div>
 
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg?w=738;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				<a href="#" class="item" tabindex="0" data-toggle="modal" data-target="#item0">
-					<div class="item-in">
-						<div class="item-overlay">
-							<div class="overlay-text">
-								iPhone 6 Plus
-							</div>
-						</div>
-						<div class="item-pic" style="background: url(http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg;canvasHeight=500;canvasWidth=500) no-repeat center center; background-size: cover;">							
-						</div>
-						<div class="itembelow">
-							<div class="item-title">
-							$9999.00
-							<br>
-							<span class="main-cashback">Up to 3% cashback</span>
-							<span class="retailer pricing item-orig-price"><span>
-							<span class="price"></span></div>
-						</div>
-					</div>
-				</a>
-
-
-				
 						<div id="clear-div" class="clear-div">&nbsp;</div>
 						<div id="loading-indicator" class="loading-indicator">
 							Loading more results...
@@ -814,57 +616,4 @@
     </div>
   </div>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-<div class="modal fade bs-example-modal-lg" id="item0" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-lg">
-  <!-- <div class="container"> -->
-    <div class="modal-content row">
-       <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="myModalLabel">iPhone 6 Plus 128 Gb White color</h4>
-      </div>
-      <div class="popup-image col-sm-6">
-      	<!-- <img src="http://cnet1.cbsistatic.com/hub/i/r/2014/09/15/98b70517-3a22-4e39-b48b-9bb396a23407/thumbnail/770x433/b75c788b1c8f96233658bac84d2d10d9/plutus91503.jpg"> -->
-      </div>
-      <div class="popup-content col-sm-6">
-      <div class="popup-price">
-      	Price: <strong>$11.99</strong>
-      </div>
-	  <div class="popup-cashback">
-			Up to 3% Cashback
-	  </div>
-
-		<div class="popup-button">
-				<button class="yellow-button popup-get" href="#">Get the deal</button>
-    	</div>
-    	<div class="popup-social">
-		<a href="#"><img src="img/facebook-icon.png"></a>
-		<a href="#"><img src="img/twitter-icon.png"></a>
-		<a href="#"><img src="img/pinterest-icon.png"></a>
-		<a href="#"><img src="img/google-plus-icon.png"></a>
-		<a href="#"><img src="img/linkedin-icon.png"></a>
-    	</div>
-    	<div class="popup-description">
-    			<strong>Description</strong> <br>
-    			<div class="description-text">
-    			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolorum alias consequatur odio officiis veritatis voluptatibus nihil magni dolore aspernatur blanditiis laudantium aliquam magnam reiciendis, quod, quos! Ratione, vel, distinctio?
-    			Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi dolorum alias consequatur odio officiis veritatis voluptatibus nihil magni dolore aspernatur blanditiis laudantium aliquam magnam reiciendis, quod, quos! Ratione, vel, distinctio?
-    			</div>
-    	</div>
-
-    	
-  </div>
-</div>
-
-
 
